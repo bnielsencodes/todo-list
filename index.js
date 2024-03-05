@@ -106,3 +106,5 @@ closeTaskFormBtn.addEventListener("click", () => {
     reset();
   }
 });
+
+cancelBtn.addEventListener("click", () => confirmCloseDialog.close());
