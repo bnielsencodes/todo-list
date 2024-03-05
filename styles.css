@@ -129,6 +129,23 @@ h1 {
   padding: 2px;
 }
 
+#confirm-close-dialog {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 15px;
+}
+
+.confirm-close-dialog-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.discard-message-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
 #tasks-container {
   height: 100%;
   overflow-y: auto;
