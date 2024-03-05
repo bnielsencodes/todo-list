@@ -15,6 +15,33 @@
         <button id="open-task-form-btn" class="btn large-btn">
           Add New Task
         </button>
+        <form class="task-form hidden" id="task-form">
+          <div class="task-form-header">
+          </div>
+          <div class="task-form-body">
+            <label class="task-form-label" for="title-input">Title</label>
+            <input
+              required
+              type="text"
+              class="form-control"
+              id="title-input"
+              value=""
+            />
+            <label class="task-form-label" for="date-input">Date</label>
+            <input type="date" class="form-control" id="date-input" value="" />
+            <label class="task-form-label" for="description-input"
+              >Description</label
+            >
+            <textarea
+              class="form-control"
+              id="description-input"
+              cols="30"
+              rows="5"
+            ></textarea>
+          </div>
+          <div class="task-form-footer">
+          </div>
+        </form>
       </div>
     </main>
     <script src="script.js"></script>
